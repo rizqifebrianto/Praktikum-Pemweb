@@ -80,22 +80,17 @@ nav{
     iframe {
         width: 210px;
         height: 115px;
-        background-color: crimson;
+        background-color: rgb(153, 106, 45);
         border-radius: 10px;
         color: white;
     }
 
-    img {
-        width: 70px;
-        background-color: crimson;
-        border-radius: 50%;
-        color: white;
     }
 
     table {
         width: 100px;
         border: none;
-        background-color: maroon;
+        background-color: rgb(207, 161, 102);
         color: white;
         border-radius: 10px;
     }
