@@ -1,0 +1,122 @@
+:root {
+    --first-color: rgb(153, 106, 45);
+    --second-color: #eaeaea;
+    --third-color: #101010;
+    --fourth-color: rgb(153, 106, 45);
+}
+.lightmode {
+    --first-color: rgb(153, 106, 45);
+    --second-color: #101010;
+    --third-color: #ffffff;
+    --fourth-color: rgb(207, 161, 102);
+}
+* {
+    font-family: Arial;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    border: none;
+    background-color: var(--third-color);
+    color: var(--second-color);
+    border-radius: 10px;
+}
+
+nav {
+    border: none;
+    background-color: var(--first-color);
+    color: white;
+    border-radius: 15px;
+}
+
+#icon {
+    width: 50px;
+}
+
+form {
+    align-content: center;
+    line-height: 20px;
+    width: 300px;
+    background-color: var(--third-color);
+    border-radius: 20px;
+    color: var(--second-color);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    border: none;
+    background-color: rgb(207, 161, 102);
+    color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+iframe {
+    background-color: var(--first-color);
+    border-radius: 10px;
+    color: white;
+}
+
+button {
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(207, 161, 102);
+    color: var(--third-color);
+    border-radius: 10px;
+}
+
+nav{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.kontak {
+    margin-top: 40px;
+}
+
+.tentang{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 720px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    } 
+    
+    body {
+        background-color: var(--third-color);
+    }
+    
+    iframe {
+        width: 210px;
+        height: 115px;
+        background-color: var(--third-color);
+        border-radius: 10px;
+        color: white;
+    }
+
+    img {
+        width: 70px;
+        background-color: crimson;
+        border-radius: 50%;
+        color: white;
+    }
+
+    table {
+        width: 100px;
+        border: none;
+        background-color: var(--third-color);
+        color: var(--second-color);
+        border-radius: 10px;
+    }
+}
